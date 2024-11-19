@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+    color: #333;
+}
+
+/* Game Container */
+#game-container {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    background-color: #a3d5ff;
+    border: 2px solid #333;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Basket */
+#basket {
+    position: absolute;
+    bottom: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #ff7b00;
+    border-radius: 10px;
+    left: 160px; /* Center the basket */
+}
+
+/* Fruit */
+#fruit {
+    position: absolute;
+    top: -50px; /* Start off-screen */
+    width: 40px;
+    height: 40px;
+    background-color: #ff2e63;
+    border-radius: 50%;
+    left: 50%; /* Start near the center */
+    transform: translateX(-50%);
+}
+
+/* Scoreboard */
+#scoreboard {
+    margin-top: 10px;
+}/* Add all your styles here */
